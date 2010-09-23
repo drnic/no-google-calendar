@@ -1,0 +1,322 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- saved from url=(0067)https://www.google.com/calendar/hosted/engineyard.com/render?tab=mc -->
+<html>
+<style>.gc-call-popup {
+  padding: 0;
+  border: 2px solid #6688EE;
+  background-color: #6688EE;
+  position: absolute;
+  z-index: 10001;
+  visibility: hidden;
+  font-family: arial, sans-serif;
+  top: 0;
+  right: 0;
+  width: 240px;
+  -webkit-border-radius: 5px 5px;
+  -webkit-box-shadow: 2px 2px 6px #777;
+  text-align: left;
+}
+
+div.gc-call-popup div {
+  height: auto;
+  font-family: arial, sans-serif;
+}
+
+span.gc-cs-link {
+  color: #03B;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.gc-cs-calli {
+  font-weight: bold;
+  padding: 3px 8px 4px 30px;
+  background: #6688EE no-repeat 6px 3px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.gc-cs-calli img {
+  position: absolute;
+  top: 4px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.gc-cs-content {
+  padding: 8px 10px 10px;
+  background-color: #fff;
+  -webkit-border-radius: 0 0 5px 5px;
+  height: auto;
+}
+
+div.gc-cs-content div {
+  height: auto;
+}
+
+.gc-cs-cwith {
+  padding: 0 0 2px 0;
+  font-size: 13px;
+  font-weight: bold;
+  height: inherit;
+}
+
+.gc-call-popup .gc-cs-phone {
+  margin: 0 0 8px 0;
+  height: inherit;
+}
+
+.gc-call-popup .gc-quickcall-msg,
+.gc-call-popup .gc-quickcall-err {
+  margin: 0px 3px 0px 5px;
+  padding: 4px 6px 4px;
+  min-width: 90px;
+  font-size: 13px;
+  vertical-align: middle;
+}
+
+.gc-call-popup .gc-quickcall-msg {
+  background-color: #eff3f8;
+}
+
+.gc-call-popup .gc-quickcall-err {
+  background-color: #f8c3c3;
+  color: #8c0a0a;
+}
+
+/* GOOG Styles */
+
+.gc-call-popup .goog-button-base {
+  cursor: default;
+  font-family: Arial, sans-serif;
+  letter-spacing: normal;
+  margin: 0 1px;
+  outline: none;
+  text-align: center;
+  text-indent: 0;
+  text-transform: none;
+  vertical-align: baseline;
+  white-space: nowrap;
+  word-spacing: normal;
+}
+
+.gc-call-popup .goog-button-base-outer-box {
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #aaa;
+}
+
+.gc-call-popup .goog-button-base-inner-box {
+  background: #e3e3e3;
+  border-left: 1px solid #bbb;
+  border-right: 1px solid #aaa;
+  margin: 0 -1px;
+}
+
+.gc-call-popup .goog-button-base-pos {
+  height: 100%;
+  position: relative;
+}
+
+.gc-call-popup .goog-button-base-top-shadow {
+  background: #f9f9f9;
+  border-bottom: .23em solid #eee;
+  height: 9px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.gc-call-popup .goog-button-base-content {
+  color: #333;
+  line-height: 21.45px;
+  position: relative;
+  padding: 0 6px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.gc-call-popup .goog-flat-menu-button {
+  font-size: 13px;
+}
+
+.gc-call-popup .goog-flat-menu-button-caption {
+  font-size: 13px;
+}
+
+
+/* State: Hover, Focused */
+
+.goog-button-base-hover .goog-button-base-content,
+.goog-button-base-focused .goog-button-base-content {
+  color: #000;
+}
+
+.goog-button-base-hover .goog-button-base-outer-box,
+.goog-button-base-hover .goog-button-base-inner-box,
+.goog-button-base-focused .goog-button-base-outer-box,
+.goog-button-base-focused .goog-button-base-inner-box {
+  border-color: #888;
+}
+
+
+/* State: Active, Open */
+
+.gc-call-popup .goog-button-base-active .goog-button-base-inner-box,
+.gc-call-popup .goog-button-base-open .goog-button-base-inner-box {
+  background: #f9f9f9;
+}
+
+.gc-call-popup .goog-button-base-active .goog-button-base-top-shadow,
+.gc-call-popup .goog-button-base-open .goog-button-base-top-shadow {
+  background: #e3e3e3;
+}
+
+.gc-call-popup .goog-button-base-active .goog-button-base-content,
+.gc-call-popup .goog-button-base-open .goog-button-base-content {
+  color: #000;
+}
+
+
+/* State: Disabled */
+
+.goog-button-base-disabled {
+  cursor: default;
+}
+
+.gc-call-popup .goog-button-base-disabled .goog-button-base-inner-box,
+.gc-call-popup .goog-button-base-disabled .goog-button-base-top-shadow {
+  background: #eee;
+}
+
+.gc-call-popup .goog-button-base-disabled .goog-button-base-top-shadow {
+  border-color: #eee;
+}
+
+.gc-call-popup .goog-button-base-disabled .goog-button-base-content {
+  color: #999;
+}
+
+/* goog.ui.Menu */
+
+div.gc-cs {
+  position: absolute;
+  color: #000;
+  border: 1px solid #B5B6B5;
+  background-color: #f6f8fd;
+  cursor: default;
+  font: normal small arial, helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  top: 0;
+  left: 0;
+  z-index: 10001;
+}
+
+.gc-cs .goog-menuitem {
+  position: relative;
+  padding: 2px 1.5em 2px 5px;
+  margin: 0px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.gc-cs .goog-menuitem-rtl {
+  padding: 2px 5px 2px 1.5em;
+}
+
+.gc-cs .goog-menuitem-highlight {
+  background: #e3e9ff;
+}
+
+.gc-cs .goog-option-selected {
+  background: #68e;
+}
+
+.gc-simple-menu .goog-menuitem-highlight,
+.gc-simple-menu .goog-option-selected {
+  background: #d6e9f8;
+}
+
+.gc-phone-menu {
+  min-width: 160px;
+}
+
+.gc-cs .goog-menuitem-disabled {
+  color: #999;
+}
+
+.gc-cs .goog-option-selected {
+  color: #fff;
+}
+
+.gc-cs .goog-option {
+  position: relative;
+  padding: 2px 16px 2px 5px;
+  margin: 0px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.gc-cs .goog-option-selected {
+  font-weight: normal;
+}
+
+.gc-call-popup .goog-menuitem {
+  text-align: left;
+}
+
+.gc-call-popup .goog-menuitem-content {
+  font-size: 13px;
+}
+
+.gc-call-popup .goog-inline-block {
+  position: relative;
+  display: inline-block;
+}
+
+.gc-call-popup div.goog-button-base {
+  font-size: 13px;
+}
+
+.gc-call-popup .goog-button-base-pos {
+  height: inherit;
+}
+
+.gc-call-popup div.goog-flat-menu-button-dropdown {
+  background: url(toolbar_icons.gif) no-repeat -176px;
+}</style><style>/* Copyright 2010 Google Inc. All Rights Reserved. */
+.goog-button-base-collapse-right,.goog-button-base-collapse-right .goog-button-base-inner-box{margin-right:0}.goog-button-base-collapse-left,.goog-button-base-collapse-left .goog-button-base-inner-box{margin-left:0}.goog-button-base-collapse-left .goog-button-base-inner-box{border-left:1px solid #fff}.goog-button-base-hover.goog-button-base-collapse-left,.goog-button-base-focused.goog-button-base-collapse-left{border-left:1px solid #888;margin-left:-1px;z-index:1;}* html .goog-button-base-collapse-left .goog-button-base-inner-box{left:0}* html .goog-button-rtl.goog-button-base-collapse-right .goog-button-base-inner-box{margin-right:-1px}*:first-child+html .goog-button-base-collapse-left .goog-button-base-inner-box{left:0}*:first-child+html .goog-button-base-rtl.goog-button-base-collapse-left .goog-button-base-inner-box{left:1px}*:first-child+html .goog-button-base-rtl.goog-button-base-collapse-right .goog-button-base-inner-box{left:0}.goog-button-base-rtl.goog-button-base-hover.goog-button-base-collapse-left,x:-moz-any-link,.goog-button-base-rtl.goog-button-base-focused.goog-button-base-collapse-left,x:-moz-any-link{border-left:none;margin-left:0}*:first-child+html .goog-button-base-rtl.goog-button-base-hover.goog-button-base-collapse-left,*:first-child+html .goog-button-base-rtl.goog-button-base-focused.goog-button-base-collapse-left{border-left:1px solid #888;margin-left:-1px}.goog-flat-menu-button{margin:0 2px;color:#333;text-decoration:none;list-style:none;vertical-align:middle;cursor:pointer;outline:none;-moz-outline:none;border-width:1px;border-style:solid;border-color:#c9c9c9;background-color:#fff;padding:2px 0}.goog-flat-menu-button-disabled *{color:#999;border-color:#ccc;cursor:default}.goog-flat-menu-button-hover,.goog-flat-menu-button-hover{border-color:#9cf #69e #69e #7af!important;}.goog-flat-menu-button-active{background-color:#bbb;background-position:bottom left}.goog-flat-menu-button-focused{border-color:orange}.goog-flat-menu-button-caption{padding:1px 4px 1px 4px;vertical-align:middle;width:100px;white-space:nowrap;overflow:hidden}.goog-flat-menu-button-dropdown{width:7px;background:url(images/closure/toolbar_icons.gif) no-repeat -176px;vertical-align:middle;margin:1px 4px 1px 4px}.goog-flat-menu-button-option-select{border-top:1px solid #999}.goog-flat-menu-button-input input{border-width:0;width:100px;margin-right:4px;padding-left:1px}.gc-simple-menu .goog-flat-menu-button{margin:0;color:#03b;border-width:0;background-color:transparent;padding:0}.gc-simple-menu .goog-flat-menu-button-caption{padding:0;margin-right:3px;vertical-align:bottom;width:auto;text-decoration:underline}.gc-simple-menu .goog-flat-menu-button-dropdown{margin:0;background:none;font-size:1.0em;width:auto}.gc-simple-menu2 .goog-flat-menu-button{color:#78c}.gc-simple-menu2 .goog-flat-menu-button-caption{margin-right:2px;text-decoration:none;font-size:11px}.gc-simple-menu2 .goog-flat-menu-button-dropdown{font-size:11px}</style><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Sorry, we cannot load your calendar right now</title>
+<style type="text/css">
+body,td,div,.p,a,font,span {font-family: arial,sans-serif}
+.bubble {background-color:#e3e9ff};
+.tl {background-image: url(/calendar/images/corner_tl_gmail.gif);
+background-position:top left;background-repeat:no-repeat}
+.tr {background-image: url(/calendar/images/corner_tr_gmail.gif);
+background-position:top right;background-repeat:no-repeat}
+.bl {background-image: url(/calendar/images/corner_bl_gmail.gif);
+background-position:bottom left;background-repeat:no-repeat}
+.br {background-image: url(/calendar/images/corner_br_gmail.gif);
+background-position:bottom right}
+.tl, .tr, .bl, .br {background-repeat:no-repeat}
+</style></head><body bgcolor="#ffffff" style="margin-top:2px; "><table width="95%" border="0" align="center" cellpadding="0" cellspacing="0"><tbody><tr valign="top"><td width="1%"><a href="http://www.google.com/calendar"><img border="0" height="30" align="left" vspace="10" style="padding-top:14px;padding-right:8px" alt="Google Calendar" src="./index_files/calendar_logo_sm_en.gif"></a></td>
+<td width="99%" bgcolor="#ffffff" valign="top"><table width="100%" cellpadding="1"><tbody><tr valign="bottom"><td><div align="right">&nbsp;</div></td></tr>
+<tr><td nowrap=""><table width="100%" align="center" cellpadding="0" cellspacing="0" style="margin-bottom:5px;background:#e3e9ff"><tbody><tr><td class="bubble tl" width="4">
+<td class="bubble" rowspan="2" style="font-family:arial;text-align:left;font-weight:bold;padding:3px,0px;"><b>Sorry, we cannot load your calendar right now</b></td>
+<td class="bubble tr" width="4"></tr>
+<tr><td class="bubble bl" width="4">
+<td class="bubble br" width="4"></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table>
+<br>
+<table width="94%" border="0" align="center" cellpadding="5" cellspacing="0"><tbody><tr valign="top"><td><p>Sorry, Calendar is temporarily unavailable. Please try again in a few minutes. If the problem persists, visit the <a href="https://www.google.com/support/calendar/bin/answer.py?answer=63579&hl=en">Help Center</a>.</p></td></tr>
+</tbody></table>
+<br><br>
+<table width="95%" align="center" cellpadding="3" cellspacing="0" style="margin-bottom:5px;background:#e3e9ff"><tbody><tr><td class="bubble tl" width="4">
+<td class="bubble" rowspan="2" style="font-family:arial;text-align:center;"><font size="-1" color="#666">©2010
+Google -
+<a href="http://www.google.com/">Google Home</a></font></td>
+<td class="bubble tr" width="4"></tr>
+<tr><td class="bubble bl" width="4">
+<td class="bubble br" width="4"></tr></tbody></table><div id="gleeBox" style="display: none; top: 35%; " class="GleeThemeDefault"><input type="text" id="gleeSearchField" value="" autocomplete="off" class="ac_input GleeThemeDefault" style="font-size: 50px; "><div id="gleeSub"><div id="gleeSubText">Nothing selected</div><div id="gleeSubActivity"></div><div id="gleeSubURL"></div></div></div></body><style type="text/css">.GleeReaped { background-color: #f9f2a5 !important; outline: 1px dotted #818181 !important; } .GleeHL { -webkit-box-shadow: hsla(71, 89%, 70%, 1) -2px -2px 0px, hsla(71, 89%, 70%, 1)  2px -2px 0px, hsla(71, 100%, 45%, 1) -2px  2px 0px, hsla(71, 100%, 45%, 1)  2px  2px 0px, hsla(71, 100%, 80%, 1)  0px 0px 0px 3px, rgba(42, 35, 0, 0.8)  1px  1px 3px 3px !important; border-radius: 3px !important; color: #000 !important; outline: none !important; border: none !important; background: -webkit-gradient(linear, left bottom, left top, color-stop(0, hsla(71, 100%, 47%, 1)), color-stop(1, hsla(71, 89%, 70%, 1))) !important;} a.GleeHL, .GleeHL a {color: #000 !important;}</style></html>
